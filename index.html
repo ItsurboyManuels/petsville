@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petsville</title>
+    <link rel="icon" href="assets/dog_5100114.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/dog_5100114.png" alt="logo" class="me-2" id="navlogo" height="40"> 
+                Petsville
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavAuth">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="signin.html">Sign In</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center text-light d-flex align-items-center justify-content-center" id="header">
+        <div>
+            <h1 style="color: #3B1C32;"><b>Welcome to Petsville </b></h1>
+            <p class="lead text-muted">Your one-stop shop for all your pet's needs!</p>
+            <a href="#products" class="btn work">Shop Now</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <h2 class="display-4 txt mb-3 me">About Us</h2>
+                    <p class="lead text-muted mb-4">
+                        At Petsville, we love your pets as much as you do! We offer high-quality products and services to keep your furry, feathered, or scaly friends happy and healthy.
+                    </p>
+                    <p class="mb-4">
+                        Our team of pet enthusiasts is here to provide the best care, advice, and products tailored to your pet's needs.
+                    </p>
+                    <a href="#products" class="btn btn-lg btn-danger">Shop now</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5 bg-light-gray">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-scissors" style="font-size: 50px; color: #A64D79;"></i>
+                        <h4 class="mt-3">Grooming</h4>
+                        <p>Keep your pets looking their best with our professional grooming services.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-house-heart" style="font-size: 50px; color: #A64D79;"></i>
+                        <h4 class="mt-3">Pet Boarding</h4>
+                        <p>Safe and comfortable boarding for your pets while you’re away.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-heart-pulse" style="font-size: 50px; color: #A64D79;"></i>
+                        <h4 class="mt-3">Veterinary Care</h4>
+                        <p>Quality healthcare services to ensure your pets live long and happy lives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.petexpress.com.ph/cdn/shop/files/PETEXP1031041_600x.png?v=1732864927" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Cat Treats 80g</h5>
+                            <p class="card-text">Nutritional food to keep your pets healthy and active.</p>
+                            <p class="card-text"><strong>Price: ₱80</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.petexpress.com.ph/cdn/shop/products/10227774-NexGard-Medium-10-24lbs-_3-tablets-in-a-box_-a_600x.jpg?v=1679533805" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">NexGard Chewable Tablet</h5>
+                            <p class="card-text">Afoxolaner is an insecticide and acaricide used in dogs.</p>
+                            <p class="card-text"><strong>Price: ₱100</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://cdn.shopify.com/s/files/1/0386/4113/9843/files/FHNAgeing12_HeroImage8_480x480.png?v=1682491404" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Canin Feline Health Nutrition</h5>
+                            <p class="card-text">Helps stimulate the senior cat’s appetite thanks to a highly palatable is easy to chew.</p>
+                            <p class="card-text"><strong>Price: ₱150</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.petexpress.com.ph/cdn/shop/files/10303723TheFurLifeBathRefreshPetWipes80sA_600x.png?v=1720161638" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Refresh Pet Wipes</h5>
+                            <p class="card-text">Great wipe for our furry friends whoe need a little odor control form time to time.
+                            </p>
+                            <p class="card-text"><strong>Price: ₱50</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://www.petexpress.com.ph/cdn/shop/files/10303307TheFurLifeFreshPetShampoo1LA_600x.png?v=1720161819" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Pet Shampoo</h5>
+                            <p class="card-text">It is mild and gentle wash that cleans and deodorizes your pet's coat.
+                                </p>
+                                <p class="card-text"><strong>Price: ₱120</strong></p>
+                                <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/copver1.png?v=1700625315&width=713" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Petsup Premium Herbal Soap</h5>
+                            <p class="card-text">Petsup Anti-Tick & Flea Premium Herbal Soap is made with 100% natural ingredients.</p>
+                            <p class="card-text"><strong>Price: ₱80</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/dogrealmeat_2.jpg?v=1707712169&width=713" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Petsup Real Meat Delish Dog Wet Food </h5>
+                            <p class="card-text">Indulge your feline friend with Petsup Real Meat Delish Chicken + Sweet Potato
+                            </p>
+                            <p class="card-text"><strong>Price: ₱200</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/Photopack-PetDisinfectant-01.png?v=1727682972&width=713 " class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Petsup Pet Disinfectant Spray 500ml </h5>
+                            <p class="card-text">Keep your furry friends safe and your home fresh with Petsup Pet Disinfectant Spray.
+                                </p>
+                                <p class="card-text"><strong>Price: ₱120</strong></p>
+                                <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/PremiumLicky-SKU-05.png?v=1727662224&width=713" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Taurine Premium Licky Cat Treats 120g</h5>
+                            <p class="card-text">Eco-friendly, non-toxic formula is safe for pawrents, furry friends, and the environment</p>
+                            <p class="card-text"><strong>Price: ₱50</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://allpets.ph/cdn/shop/products/indooradult_600x.jpg?v=1588835677" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Royal Canin Mini Dry Dog Food</h5>
+                            <p class="card-text">Highly digestible proteins promote digestive health while decreasing stool amount and odor                            </p>
+                            <p class="card-text"><strong>Price: ₱200</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://allpets.ph/cdn/shop/products/vitality-high-energy-lamb-beef-dog-dry-food_600x.jpg?v=1589448457" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Vitality High Energy Puppy Dog Food</h5>
+                            <p class="card-text">Highly Palatable
+                                No artificial colours & flavours, Made from quality Australian ingredients</p>
+                            <p class="card-text"><strong>Price: ₱300</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/DogLeashBlue.png?v=1689222061&width=713" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Adjustable Dog Leash with Harness</h5>
+                            <p class="card-text">High quality jean material, comfortable to wear</p>
+                            <p class="card-text"><strong>Price: ₱60</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/skuB--Cookies-S.jpg?v=1701669058&width=713" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Christmas Cute Dog Clothes</h5>
+                            <p class="card-text">Get your furry friend ready for the holidays with Petsup Christmas Dog Clothes.
+                            </p>
+                            <p class="card-text"><strong>Price: ₱130</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/CD2-01.jpg?v=1687341510&width=713" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Lavender Scent Deodorizer Beads</h5>
+                            <p class="card-text">Say goodbye to unpleasant pet odors with Petsup Cat Litter Deodorizer Beads.
+                                </p>
+                                <p class="card-text"><strong>Price: ₱99</strong></p>
+                                <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/HairClippers.png?v=1688974553&width=713" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Rechargeable Dog Shaver</h5>
+                            <p class="card-text">Petsup 4-in-1 Multi-Functional Rechargeable Shaver</p>
+                            <p class="card-text"><strong>Price: ₱800</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/P162-WhiteBG-withinclusions.png?v=1687856222&width=713" class="card-img-top" alt="Pet Food">
+                        <div class="card-body">
+                            <h5 class="card-title">Electric Pet Hair Dryer-Blower </h5>
+                            <p class="card-text">The 3-in-1 Electric Pet Hair Dryer-Blower with Slicker Brush
+                            </p>
+                            <p class="card-text"><strong>Price: ₱900</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/sku2.png?v=1702438153&width=713" class="card-img-top" alt="Pet Toys">
+                        <div class="card-body">
+                            <h5 class="card-title">Dry Cleaning Powder Deodorant </h5>
+                            <p class="card-text">Made from plant extracts: safe and gentle on your pet's skin and coat
+                                </p>
+                                <p class="card-text"><strong>Price: ₱120</strong></p>
+                                <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://petsup.ph/cdn/shop/files/DFW-01_b7b2e2b5-3662-43a8-b624-ba1103c3fdd1.jpg?v=1707706625&width=713" class="card-img-top" alt="Pet Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Petsup Dental Finger Wipes</h5>
+                            <p class="card-text">Helps remove plaque and freshens breath, Convenient and easy-to-use</p>
+                            <p class="card-text"><strong>Price: ₱130</strong></p>
+                            <a href="#" class="btn" style="background-color: #A64D79; color: white;">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="container text-center my-5">
+        <h2>Find Us Here</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123832.38055099739!2d121.02645902779237!3d14.091228457547343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6f72ec612957%3A0xb38df4072fe465d6!2sTanauan%2C%20Batangas!5e0!3m2!1sen!2sph!4v1736586986271!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="container text-center py-5">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Reach out for any inquiries or feedback.</p>
+        
+        <a href="#" class="btn" style="background-color: #A64D79; color: white;">Email Us</a>
+    </section>
+
+    <footer class="text-center py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="#services" class="text-light text-decoration-none">Services</a></li>
+                        <li><a href="#products" class="text-light text-decoration-none">Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li><a href="#" class="text-light text-decoration-none"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt"></i> 123 Pet Street, Tanauan City</li>
+                        <li><i class="bi bi-envelope"></i> Petsville@example.com</li>
+                        <li><i class="bi bi-telephone"></i> (123) 456-7890</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p class="mb-0">© 2025 Petsville. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

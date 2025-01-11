@@ -1,0 +1,112 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navlogo, .nav-item {
+    margin-right: 20px;
+}
+
+.navbar{
+    background-color: #1A1A1D;
+}
+
+#header {
+    background: url('assets/closeup-shot-cute-dog-sitting-ground-sunny-day-near-lake-bridge.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.work {
+    background-color: #A64D79; 
+    border: none; 
+    outline: none; 
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.work:focus, .work:hover {
+    background-color: #801436; 
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #3B1C32;
+}
+
+#about {
+    background-color: #f4f4f4; 
+    padding-top: 80px; 
+    padding-bottom: 40px;
+}
+
+  
+#about .txt{
+    color: #3B1C32;
+}
+
+#about h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #3B1C32; 
+}
+  
+#about .lead {
+    color: #6c757d; 
+}
+  
+#about p {
+    color: #333; 
+}
+  
+#about a.btn {
+    font-weight: bold;
+    padding: 12px 25px;
+    background-color: #A64D79; 
+    border-radius: 50px;
+    color: white; 
+    border: none;
+}
+  
+#about a.btn:hover {
+    background-color: #801436; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+  
+#about img {
+    max-width: 90%;
+}
+
+.bg-dark-custom {
+    background-color: #343a40; /* Darker background */
+}
